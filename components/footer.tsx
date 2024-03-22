@@ -27,10 +27,10 @@ export const Footer = () => (
       <FooterNav
         title="Follow"
         links={[
-          <FaXTwitter className="w-5 h-5"/>,
-          <FaFacebookF className="w-5 h-5"/>,
-          <FaLinkedin className="w-5 h-5"/>,
-          <FaInstagram className="w-5 h-5"/>,
+          <FaXTwitter key={1} className="w-5 h-5" />,
+          <FaFacebookF key={2} className="w-5 h-5" />,
+          <FaLinkedin key={3} className="w-5 h-5" />,
+          <FaInstagram key={4} className="w-5 h-5" />,
         ]}
       />
     </div>
